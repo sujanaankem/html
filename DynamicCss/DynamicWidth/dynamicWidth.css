@@ -1,17 +1,18 @@
  #divResult {
-            width: 0px;
-            height: 30px;
-            background-color: burlywood;
-        }
-        #btn {
-            padding-left: 200px;
-             padding-top: 5px;
-        }
+     width: 0px;
+     height: 30px;
+     background-color: burlywood;
+ }
 
-        #txtSize {
-            width: 200px;
-        }
+ #btn {
+     padding-left: 200px;
+     padding-top: 5px;
+ }
 
-        #lblResult {
-            padding-right: 5px;
-        }
+ #txtSize {
+     width: 200px;
+ }
+
+ #lblResult {
+     padding-right: 5px;
+ }

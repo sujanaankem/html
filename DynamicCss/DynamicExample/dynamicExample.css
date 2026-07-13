@@ -1,14 +1,16 @@
  .page {
-            display: none;
-        }
-        #divPage{
-            background-color: chartreuse;
-            box-sizing: 50px;
-            border-radius: 10px;
+     display: none;
+ }
 
-        }
-        #divHidden{
-            background-color: chartreuse;
-            box-shadow: 10px;
-            border-radius: 10px;
-        }
+ #divPage {
+     background-color: chartreuse;
+     box-sizing: 50px;
+     border-radius: 10px;
+
+ }
+
+ #divHidden {
+     background-color: chartreuse;
+     box-shadow: 10px;
+     border-radius: 10px;
+ }

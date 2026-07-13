@@ -1,19 +1,31 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Dynamic font size</title>
-        <script defer>
-function onClickChange(){
-    debugger;
-    var size=document.getElementById("txtFontSize").value
-    document.getElementById("txtName").style.fontSize=size+"px"
-}
- </script>
-    </head>
-    <body>
-            <label id="lblFontSize">Font size</label>
-            <input id="txtFontSize" type="number"><br>
-        <button id="btnChange" onclick="onClickChange()">Change</button>
-        <p id="txtName">This is to check the font size of the paragraph.</p>
-    </body>
+
+<head>
+    <title>Dynamic font size</title>
+    <script defer>
+        function onClickChange() {
+            debugger;
+            var size = document.getElementById("txtFontSize").value
+            document.getElementById("txtName").style.fontSize = size + "px"
+        }
+    </script>
+</head>
+
+<body>
+    <header>
+        <h1>dynamicFontSize page</h1><a href="../index.html">back to home page</a>
+    </header>
+    <hr>
+    <label id="lblFontSize">Font size</label>
+    <input id="txtFontSize" type="number"><br>
+    <button id="btnChange" onclick="onClickChange()">Change</button>
+    <p id="txtName">This is to check the font size of the paragraph.</p>
+    <hr>
+    <footer>
+        <p>@ Design by Sujana.A</p>
+        <p># medsquire</p>
+    </footer>
+</body>
+
 </html>

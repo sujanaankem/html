@@ -8,11 +8,11 @@
         function onClickChange() {
             debugger;
             var width = document.getElementById("txtSize").value
-            
-            if (width>0 & width<100){
-                document.getElementById("divResult").style.width=width+"%";
+
+            if (width > 0 & width < 100) {
+                document.getElementById("divResult").style.width = width + "%";
             }
-            else{
+            else {
 
             }
         }
@@ -21,12 +21,19 @@
 </head>
 
 <body>
+    <header><h1>dynamicWidth page</h1><a href="../../index.html">back to home page</a></header>
+    <hr>
     <label id="lblResult">%</label>
     <input id="txtSize" placeholder="Enter any number from 1 to 100"><br><br>
     <div id="btn">
         <button id="btnResult" onclick="onClickChange()">Submit</button>
     </div>
     <div id="divResult"></div>
+    <hr>
+    <footer>
+        <p>@ Design by Sujana.A</p>
+        <p># medsquire</p>
+    </footer>
 </body>
 
 </html>

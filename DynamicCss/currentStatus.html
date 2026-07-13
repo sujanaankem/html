@@ -1,66 +1,81 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Current status</title>
-        <script defer>
-            function onClickOnline(){
-                debugger;
-                document.getElementById("container").classList.add("page");
-                document.getElementById("table").classList.remove("page"); 
-            }
-            function onClickOffline(){
-                debugger;
-                document.getElementById("table").classList.add("page");
-                document.getElementById("container").classList.remove("page");
-            }
 
-        </script>
-        <style>
-            .page{
-                display: none;
-            }
-            #Ofline{
-                border-style: dotted;
-                width: auto;
-                text-align: center;
-                background-color: red;
-            }
-            #Online{
-                 border-style: dotted;
-                width: auto;
-                text-align: center;
-                background-color: green;
-            }
-            #container{
-                background-color: antiquewhite;
-                height: 38px;
-                width: 162px;
-                padding: 25px;
-                border-radius: 5px;
-                box-shadow: 0px 2px 5px royalblue;
-            }
-            #table{
-               background-color: antiquewhite;
-                height: 50px;
-                width: 165px;
-                padding: 20px; 
-                border-radius: 5px;
-                 box-shadow: 0px 2px 5px royalblue;
-            }
-           
-        </style>
-    </head>
-    <body>
-        <div id="container">
-            <button id="btnOnline" onclick="onClickOnline()">Go Online</button><br>
-            <label>Current status</label>🔴
-            <label id="Ofline">Ofline</label>
-        </div>
-        <div id="table" class="page">
-             <button id="btnOfline" onclick="onClickOffline()">Go Ofline</button><br>
-            <label>Current status</label>🟢
-            <label id="Online">Online</label>
-        </div>
-    </body>
+<head>
+    <title>Current status</title>
+    <script defer>
+        function onClickOnline() {
+            debugger;
+            document.getElementById("container").classList.add("page");
+            document.getElementById("table").classList.remove("page");
+        }
+        function onClickOffline() {
+            debugger;
+            document.getElementById("table").classList.add("page");
+            document.getElementById("container").classList.remove("page");
+        }
+
+    </script>
+    <style>
+        .page {
+            display: none;
+        }
+
+        #Ofline {
+            border-style: dotted;
+            width: auto;
+            text-align: center;
+            background-color: red;
+        }
+
+        #Online {
+            border-style: dotted;
+            width: auto;
+            text-align: center;
+            background-color: green;
+        }
+
+        #container {
+            background-color: antiquewhite;
+            height: 38px;
+            width: 162px;
+            padding: 25px;
+            border-radius: 5px;
+            box-shadow: 0px 2px 5px royalblue;
+        }
+
+        #table {
+            background-color: antiquewhite;
+            height: 50px;
+            width: 165px;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0px 2px 5px royalblue;
+        }
+    </style>
+</head>
+
+<body>
+    <header><h1>currentStatus page</h1><a href="../index.html">back to home page</a></header>
+    <hr>
+    <div id="container">
+        <button id="btnOnline" onclick="onClickOnline()">Go Online</button><br>
+        <label>Current status</label>🔴
+        <label id="Ofline">Ofline</label>
+    </div>
+    <div id="table" class="page">
+        <button id="btnOfline" onclick="onClickOffline()">Go Ofline</button><br>
+        <label>Current status</label>🟢
+        <label id="Online">Online</label>
+    </div>
+    <hr>
+    <footer>
+        <p>@ Design by Sujana.A</p>
+        <p># medsquire</p>
+    </footer>
+</body>
+
 </html>
-<ul><li style="border-style: solid; width: 50px;">offline</li></ul>
+<ul>
+    <li style="border-style: solid; width: 50px;">offline</li>
+</ul>
